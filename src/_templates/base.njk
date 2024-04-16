@@ -12,11 +12,13 @@
   <body>
     {% include "_includes/nav.njk" %}
 
+    {% include "_includes/jumbotron.njk" %}
+
     {% block content %}{% endblock %}
 
     {% include "_includes/footer.njk" %}
 
-    {% include "_includes/jumbotron.njk" %}
+
 
     <script src="{{ relative_path }}js/jquery.js"></script>
     <script src="{{ relative_path }}js/bootstrap.bundle.min.js"></script>
