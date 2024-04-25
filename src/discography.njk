@@ -12,14 +12,13 @@
     {% for album in discography.discography %}
   <div class="col">
     <div class="card">
-      <img src={{ album.image }} class="card-img-top" alt="...">
+      <img src="img/discs/{{ album.image }}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{ album.title }}</h5>
         <p class="card-text">{{ album.year }}</p>
       </div>
     </div>
   </div>
-</div>
   {% endfor %}
 </div>
 </article>

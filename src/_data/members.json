@@ -30,7 +30,7 @@
     },
     {
       "slug": "brian-may",
-      "Name": "Brian May",
+      "name": "Brian May",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "Hampton, England",
@@ -58,7 +58,7 @@
     },
     {
       "slug": "roger-taylor",
-      "Name": "Roger Taylor",
+      "name": "Roger Taylor",
       "instruments": "Drums, guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "King's Lynn, England",
@@ -86,7 +86,7 @@
     },
     {
       "slug": "john-deacon",
-      "Name": "John Deacon",
+      "name": "John Deacon",
       "instruments": "Bass, guitar, keyboards",
       "tenure": "(1971–1997)",
       "birthplace": "Leicester, England",

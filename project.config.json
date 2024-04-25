@@ -9,7 +9,23 @@
       "fileId": "1VmG-3MyWy-aM2biYTmqn_PJ1un71YQeoJVkJvsYTXZc",
       "type": "doc",
       "name": "members"
-    }
+    }],
+    "to_bake": [
+      {
+        "template": "bake-book",
+        "data": "library",
+        "array": "books",
+        "slug": "slug",
+        "path": "books"
+      },
+
+      {
+        "template": "bake-member",
+        "data": "members",
+        "array": "members",
+        "slug": "slug",
+        "path": "queen"
+      }
 
   ]
 
