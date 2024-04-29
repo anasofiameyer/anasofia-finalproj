@@ -18,31 +18,10 @@
 // @import "../../node_modules/bootstrap/scss/variables";
 // @import "../../node_modules/bootstrap/scss/mixins";
 
-// Import partials
-@import 'nav';
-@import 'jumbotron';
-@import 'members';
-@import 'discography';
-@import 'footer';
 
-.almendra-sc-regular {
-  font-family: "Almendra SC", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .gloock-regular {
   font-family: "Gloock", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
-.kameron-body {
-  font-family: "Kameron", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -86,7 +65,40 @@ h1 {
 
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: white;
 }
 
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  width: 100%;
+}
 
+.overlay-text h3 {
+  margin: 0;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.overlay-text h3 {
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body-text {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Import partials
+@import 'nav';
+@import 'jumbotron';
+@import 'members';
+@import 'discography';
+@import 'footer';
