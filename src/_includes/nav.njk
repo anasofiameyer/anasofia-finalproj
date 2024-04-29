@@ -9,10 +9,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ relative_path }}discography.html">Discography</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ relative_path }}members.html">Band Members</a>
-              </li>
-        </ul>
+               <li class="nav-item dropdown"> 
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Band Members
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="{{ relative_path }}queen/freddie-mercury.html">Freddie Mercury</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}queen/brian-may.html">Brian May</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}queen/john-deacon.html">John Deacon</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}queen/roger-taylor.html">Roger Taylor</a></li>
+            
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
